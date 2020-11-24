@@ -22,8 +22,7 @@ while (win == false) {
         console.log("The number is higher");
     // If the guessed number was correct
     } else if (userInput == random) {
-        console.log("Correct!");
-        console.log("Thank you for playing!");
+        console.log("Correct! Thank you for playing!");
         win = true;
     // Ends the game If the user types 'exit'
     } else if (userInput === "exit") {
